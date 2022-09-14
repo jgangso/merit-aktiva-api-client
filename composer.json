@@ -1,0 +1,33 @@
+{
+  "name": "jgangso/merit-aktiva-api-client",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "email": "jgangso@gmail.com",
+      "name": "Johannes Gangsö",
+      "role": "author"
+    }
+  ],
+  "description": "PHP client library for Merit Aktiva API",
+  "keywords": [
+    "merit aktiva",
+    "meritaktiva"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jgangso\\MeritApiClient\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": { "Jgangso\\MeritApiClient\\Test\\": "tests/" }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "ext-dom": "*"
+  },
+  "require": {
+    "guzzle/guzzle": "^v3.9.3",
+    "ext-json": "*"
+  }
+}
